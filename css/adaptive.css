@@ -246,7 +246,7 @@
         font-size: 32px;
         line-height: 1.25;
         margin-bottom: 40px;
-        /* max-width: 338px; */
+        max-width: 338px;
     }
 
     .main__text {
@@ -352,12 +352,15 @@
         grid-column: span 3;
     }
 
-    .footer__phone[href^="tel"] {
-        color: inherit; /* Inherit text color of parent element. */
-        text-decoration: none; /* Remove underline. */
+    .footer__phone {
         justify-self: center;
         grid-column: span 3;
         grid-row: 2 / 3;
+    }
+
+    .footer__phone[href^="tel"] {
+        color: inherit; /* Inherit text color of parent element. */
+        text-decoration: none; /* Remove underline. */
     }
 
     .footer__socials {
