@@ -327,6 +327,7 @@
         content: url('../images/strawberry_left.png');
         position: absolute;
         right: 20px;
+        animation: strawberries 4s linear infinite;
     }
 
     .order__input, .order__form_button {
