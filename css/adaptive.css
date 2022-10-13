@@ -352,7 +352,9 @@
         grid-column: span 3;
     }
 
-    .footer__phone {
+    .footer__phone[href^="tel"] {
+        color: inherit; /* Inherit text color of parent element. */
+        text-decoration: none; /* Remove underline. */
         justify-self: center;
         grid-column: span 3;
         grid-row: 2 / 3;
