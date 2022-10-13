@@ -246,7 +246,7 @@
         font-size: 32px;
         line-height: 1.25;
         margin-bottom: 40px;
-        max-width: 338px;
+        /* max-width: 338px; */
     }
 
     .main__text {
